@@ -1,0 +1,57 @@
+#!/usr/bin/env bash
+# Launcher for the lnviz CLI.
+#
+# This script is self-locating (PYTHONPATH is set from its own path, not the
+# caller's cwd), so the `lnviz/` package works no matter where this project
+# directory lives or where you invoke `bin/lnviz` from. The one thing that
+# isn't automatically portable is the Python *interpreter* -- lnviz needs
+# networkx>=3.0 + matplotlib, which the plain system `python3` often lacks
+# (see requirements.txt). So we try, in order:
+#   1. $LNVIZ_PYTHON, if you've set it explicitly
+#   2. the conda env this was originally built/tested against -- works with
+#      zero setup on that machine, harmless (just skipped) anywhere else
+#   3. whatever `python3` is on PATH, if it actually has the right packages
+set -euo pipefail
+HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+
+CANDIDATES=()
+[ -n "${LNVIZ_PYTHON:-}" ] && CANDIDATES+=("$LNVIZ_PYTHON")
+CANDIDATES+=("/home/pfoytik/anaconda3/envs/gt/bin/python3")
+CANDIDATES+=("python3")
+
+CHECK='
+import sys
+try:
+    import networkx as nx, matplotlib
+except ImportError as e:
+    sys.exit("missing: %s" % e)
+major_minor = tuple(int(x) for x in nx.__version__.split(".")[:2])
+if major_minor < (3, 0):
+    sys.exit("networkx %s is too old (need >= 3.0)" % nx.__version__)
+'
+
+PYTHON=""
+for cand in "${CANDIDATES[@]}"; do
+    bin="$(command -v "$cand" 2>/dev/null || true)"
+    [ -z "$bin" ] && continue
+    # -s skips user site-packages: on the original dev machine, an older
+    # numpy/pandas pair sitting in ~/.local otherwise shadows a perfectly
+    # good env's own (newer) versions and crashes the import.
+    if "$bin" -s -c "$CHECK" >/dev/null 2>&1; then
+        PYTHON="$bin"
+        break
+    fi
+done
+
+if [ -z "$PYTHON" ]; then
+  echo "error: no Python found with networkx>=3.0 + matplotlib installed." >&2
+  echo "Tried: ${CANDIDATES[*]}" >&2
+  echo "" >&2
+  echo "Fix: pip install -r \"$HERE/requirements.txt\" into a Python 3.8+" >&2
+  echo "(a venv is fine), then either put it on PATH as python3, or point" >&2
+  echo "this launcher at it directly:  export LNVIZ_PYTHON=/path/to/python3" >&2
+  exit 1
+fi
+
+export PYTHONPATH="$HERE${PYTHONPATH:+:$PYTHONPATH}"
+exec "$PYTHON" -s -m lnviz.cli "$@"

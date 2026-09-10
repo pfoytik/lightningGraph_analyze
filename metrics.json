@@ -1,0 +1,1229 @@
+{
+  "source_path": "lightningGraph.json",
+  "captured_at": null,
+  "basic": {
+    "num_nodes": 9368,
+    "num_ghost_nodes": 0,
+    "num_node_pairs_with_channel": 29961,
+    "num_channels": 32027,
+    "num_multi_channel_pairs": 1174,
+    "total_capacity_sat": 360749810314,
+    "total_capacity_btc": 3607.49810314,
+    "mean_channel_capacity_sat": 11263927.633371843,
+    "median_channel_capacity_sat": 2000000,
+    "max_channel_capacity_sat": 750000000,
+    "isolated_nodes": 0,
+    "nodes_without_public_address": 1811,
+    "density": 0.0006828713590792466,
+    "average_degree": 6.396456020495303
+  },
+  "degree": {
+    "gini": 0.7566064926533727,
+    "hhi": 27.94077100693531,
+    "mean": 6.396456020495303,
+    "median": 1.0,
+    "max": 1556,
+    "top_nodes": [
+      {
+        "pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f",
+        "alias": "ACINQ",
+        "value": 1556
+      },
+      {
+        "pub_key": "0217890e3aad8d35bc054f43acc00084b25229ecff0ab68debd82883ad65ee8266",
+        "alias": "1ML.com node ALPHA",
+        "value": 1297
+      },
+      {
+        "pub_key": "0242a4ae0c5bef18048fbecf995094b74bfb0f7391418d71ed394784373f41e4f3",
+        "alias": "CoinGate",
+        "value": 989
+      },
+      {
+        "pub_key": "03ccc570ec6aaff08d5435b3413f4b4af8175728a1ed244e4710121c8f5af6ea07",
+        "alias": "LNT.Thailand",
+        "value": 710
+      },
+      {
+        "pub_key": "0324ba2392e25bff76abd0b1f7e4b53b5f82aa53fddc3419b051b6c801db9e2247",
+        "alias": "kappa",
+        "value": 467
+      },
+      {
+        "pub_key": "0364913d18a19c671bb36dd04d6ad5be0fe8f2894314c36a9db3f03c2d414907e1",
+        "alias": "LQWD-Canada",
+        "value": 398
+      },
+      {
+        "pub_key": "03423790614f023e3c0cdaa654a3578e919947e4c3a14bf5044e7c787ebd11af1a",
+        "alias": "Sunny Sarah \u2600\ufe0f",
+        "value": 378
+      },
+      {
+        "pub_key": "0298f6074a454a1f5345cb2a7c6f9fce206cd0bf675d177cdbf0ca7508dd28852f",
+        "alias": "BCash_Is_Trash",
+        "value": 377
+      },
+      {
+        "pub_key": "03cde60a6323f7122d5178255766e38114b4722ede08f7c9e0c5df9b912cc201d6",
+        "alias": "bfx-lnd1",
+        "value": 354
+      },
+      {
+        "pub_key": "023d70f2f76d283c6c4e58109ee3a2816eb9d8feb40b23d62469060a2b2867b77f",
+        "alias": "gameb_1",
+        "value": 352
+      },
+      {
+        "pub_key": "033e9ce4e8f0e68f7db49ffb6b9eecc10605f3f3fcb3c630545887749ab515b9c7",
+        "alias": "LNBiG [Hub-2]",
+        "value": 345
+      },
+      {
+        "pub_key": "033d8656219478701227199cbd6f670335c8d408a92ae88b962c49d4dc0e83e025",
+        "alias": "bfx-lnd0",
+        "value": 342
+      },
+      {
+        "pub_key": "034ea80f8b148c750463546bd999bf7321a0e6dfc60aaf84bd0400a2e8d376c0d5",
+        "alias": "LNBiG [Hub-1]",
+        "value": 338
+      },
+      {
+        "pub_key": "037659a0ac8eb3b8d0a720114efc861d3a940382dcfa1403746b4f8f6b2e8810ba",
+        "alias": "nicehash-ln1",
+        "value": 332
+      },
+      {
+        "pub_key": "02c953421bc7f07be6052920e46843d11e6d3ffc9986177c91f140d76c6ed3a3d4",
+        "alias": "LNT.chengdu",
+        "value": 329
+      },
+      {
+        "pub_key": "03d32e5618df518e911e2c0bf4686e9d236ae9ab0afd442f0a5de28b74d64338b3",
+        "alias": "\ud83c\udde8\ud83c\uddedVix18",
+        "value": 329
+      },
+      {
+        "pub_key": "02c91d6aa51aa940608b497b6beebcb1aec05be3c47704b682b3889424679ca490",
+        "alias": "LNBiG [Hub-3]",
+        "value": 307
+      },
+      {
+        "pub_key": "03c8e5f583585cac1de2b7503a6ccd3c12ba477cfd139cd4905be504c2f48e86bd",
+        "alias": "Strike",
+        "value": 292
+      },
+      {
+        "pub_key": "027100442c3b79f606f80f322d98d499eefcb060599efc5d4ecb00209c2cb54190",
+        "alias": "block-iad-1",
+        "value": 283
+      },
+      {
+        "pub_key": "0340cfadaa3324e0dd176a9969be050114278f93260e1b6333bd2a2a2ea03c64a3",
+        "alias": "Babylon-4a",
+        "value": 248
+      }
+    ],
+    "top_1pct_share": 0.34212809986315545,
+    "top_5pct_share": 0.6074062948499717,
+    "top_10pct_share": 0.7193351356763793
+  },
+  "capacity": {
+    "gini": 0.9718405725057224,
+    "hhi": 175.12701591086716,
+    "mean_sat": 77017465.90819812,
+    "median_sat": 446032.5,
+    "max_sat": 40326592722,
+    "top_nodes": [
+      {
+        "pub_key": "033d8656219478701227199cbd6f670335c8d408a92ae88b962c49d4dc0e83e025",
+        "alias": "bfx-lnd0",
+        "value": 40326592722
+      },
+      {
+        "pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f",
+        "alias": "ACINQ",
+        "value": 36943075715
+      },
+      {
+        "pub_key": "03a1f3afd646d77bdaf545cceaf079bab6057eae52c6319b63b5803d0989d6a72f",
+        "alias": "Binance",
+        "value": 36111236269
+      },
+      {
+        "pub_key": "03cde60a6323f7122d5178255766e38114b4722ede08f7c9e0c5df9b912cc201d6",
+        "alias": "bfx-lnd1",
+        "value": 27605325525
+      },
+      {
+        "pub_key": "027100442c3b79f606f80f322d98d499eefcb060599efc5d4ecb00209c2cb54190",
+        "alias": "block-iad-1",
+        "value": 25833064926
+      },
+      {
+        "pub_key": "033e9ce4e8f0e68f7db49ffb6b9eecc10605f3f3fcb3c630545887749ab515b9c7",
+        "alias": "LNBiG [Hub-2]",
+        "value": 24446778658
+      },
+      {
+        "pub_key": "03a93b87bf9f052b8e862d51ebbac4ce5e97b5f4137563cd5128548d7f5978dda9",
+        "alias": "cyberdyne.sh",
+        "value": 18420355651
+      },
+      {
+        "pub_key": "034ea80f8b148c750463546bd999bf7321a0e6dfc60aaf84bd0400a2e8d376c0d5",
+        "alias": "LNBiG [Hub-1]",
+        "value": 17338162684
+      },
+      {
+        "pub_key": "0294ac3e099def03c12a37e30fe5364b1223fd60069869142ef96580c8439c2e0a",
+        "alias": "okx",
+        "value": 16248611505
+      },
+      {
+        "pub_key": "037f990e61acee8a7697966afd29dd88f3b1f8a7b14d625c4f8742bd952003a590",
+        "alias": "fixedfloat.com",
+        "value": 15891662706
+      },
+      {
+        "pub_key": "03c8e5f583585cac1de2b7503a6ccd3c12ba477cfd139cd4905be504c2f48e86bd",
+        "alias": "Strike",
+        "value": 14474388020
+      },
+      {
+        "pub_key": "02c91d6aa51aa940608b497b6beebcb1aec05be3c47704b682b3889424679ca490",
+        "alias": "LNBiG [Hub-3]",
+        "value": 13256389707
+      },
+      {
+        "pub_key": "021c97a90a411ff2b10dc2a8e32de2f29d2fa49d41bfbb52bd416e460db0747d0d",
+        "alias": "LOOP",
+        "value": 12051883259
+      },
+      {
+        "pub_key": "02437c00ef5de2686a6bd60f8acb5c83d17010916010a15f479d5ef84c04f04485",
+        "alias": "Kraken \ud83d\udc19\u26a1",
+        "value": 10288062770
+      },
+      {
+        "pub_key": "02a98e8c590a1b5602049d6b21d8f4c8861970aa310762f42eae1b2be88372e924",
+        "alias": "ed528ad49bedd1f7a638a",
+        "value": 9070034492
+      },
+      {
+        "pub_key": "039174f846626c6053ba80f5443d0db33da384f1dde135bf7080ba1eec465019c3",
+        "alias": "e960fd8385a1603003727",
+        "value": 8963991200
+      },
+      {
+        "pub_key": "0322d0e43b3d92d30ed187f4e101a9a9605c3ee5fc9721e6dac3ce3d7732fbb13e",
+        "alias": "Megalithic.me",
+        "value": 7857870929
+      },
+      {
+        "pub_key": "037659a0ac8eb3b8d0a720114efc861d3a940382dcfa1403746b4f8f6b2e8810ba",
+        "alias": "nicehash-ln1",
+        "value": 7167737006
+      },
+      {
+        "pub_key": "0391904d140fdf88d19423513945a5fcc49c606521b65a85f6d6fe46ebdd1c7665",
+        "alias": "LifeIsGood",
+        "value": 7107345405
+      },
+      {
+        "pub_key": "026f46207fd290a33cbd86e29b3ad0a47cdd44ab9aa5267cde66483e10aa9d3180",
+        "alias": "Authenticity",
+        "value": 7004391712
+      }
+    ],
+    "top_1pct_share": 0.7413092599168074,
+    "top_5pct_share": 0.933406565584637,
+    "top_10pct_share": 0.9718802051491853
+  },
+  "structure": {
+    "num_connected_components": 129,
+    "component_size_histogram_top10": [
+      9088,
+      5,
+      5,
+      5,
+      4,
+      4,
+      4,
+      3,
+      3,
+      3
+    ],
+    "largest_component_size": 9088,
+    "largest_component_fraction": 0.9701110162254484,
+    "average_clustering": 0.11082585156235408,
+    "transitivity": 0.05126215578253258,
+    "degree_assortativity": -0.1970211591869389,
+    "main_core_number": 36,
+    "main_core_size": 75,
+    "approx_diameter_lcc": 12,
+    "approx_avg_shortest_path_length_lcc": 3.8990656982502476,
+    "path_length_samples": 200
+  },
+  "centrality": {
+    "betweenness_sampled_k": 400,
+    "betweenness_gini": 0.9692521076649978,
+    "betweenness_top_nodes": [
+      {
+        "pub_key": "0217890e3aad8d35bc054f43acc00084b25229ecff0ab68debd82883ad65ee8266",
+        "alias": "1ML.com node ALPHA",
+        "value": 0.23943216991925076
+      },
+      {
+        "pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f",
+        "alias": "ACINQ",
+        "value": 0.22285239873555523
+      },
+      {
+        "pub_key": "0242a4ae0c5bef18048fbecf995094b74bfb0f7391418d71ed394784373f41e4f3",
+        "alias": "CoinGate",
+        "value": 0.1969219605212225
+      },
+      {
+        "pub_key": "03ccc570ec6aaff08d5435b3413f4b4af8175728a1ed244e4710121c8f5af6ea07",
+        "alias": "LNT.Thailand",
+        "value": 0.1350519277914251
+      },
+      {
+        "pub_key": "02c953421bc7f07be6052920e46843d11e6d3ffc9986177c91f140d76c6ed3a3d4",
+        "alias": "LNT.chengdu",
+        "value": 0.05630309956005158
+      },
+      {
+        "pub_key": "023d70f2f76d283c6c4e58109ee3a2816eb9d8feb40b23d62469060a2b2867b77f",
+        "alias": "gameb_1",
+        "value": 0.05338258292525634
+      },
+      {
+        "pub_key": "03c8e5f583585cac1de2b7503a6ccd3c12ba477cfd139cd4905be504c2f48e86bd",
+        "alias": "Strike",
+        "value": 0.05009906011016727
+      },
+      {
+        "pub_key": "03a93b87bf9f052b8e862d51ebbac4ce5e97b5f4137563cd5128548d7f5978dda9",
+        "alias": "cyberdyne.sh",
+        "value": 0.039618720871329394
+      },
+      {
+        "pub_key": "03557fd11b58cb93d2ad4fab4dd4cff7462a97e21e8f6b7a712cb8bd27a96b9eef",
+        "alias": "TorGuard VPN",
+        "value": 0.033022768579605996
+      },
+      {
+        "pub_key": "0364913d18a19c671bb36dd04d6ad5be0fe8f2894314c36a9db3f03c2d414907e1",
+        "alias": "LQWD-Canada",
+        "value": 0.03155603313758349
+      },
+      {
+        "pub_key": "03f47ba61341a704b0910b6d1fc8a938bb97152e8df94dfc142816d2721b5d5c73",
+        "alias": "FirstBlockCapital",
+        "value": 0.029399263322994806
+      },
+      {
+        "pub_key": "026165850492521f4ac8abd9bd8088123446d126f648ca35e60f88177dc149ceb2",
+        "alias": "Boltz",
+        "value": 0.029117123621963472
+      },
+      {
+        "pub_key": "02529db69fd2ebd3126fb66fafa234fc3544477a23d509fe93ed229bb0e92e4fb8",
+        "alias": "\ud83d\ude80\ud83c\udf11 BOLTENING.club",
+        "value": 0.028576077895231103
+      },
+      {
+        "pub_key": "034a5fdb2df3ce1bfd2c2aca205ce9cfeef1a5f4af21b0b5e81c453080c30d7683",
+        "alias": "034a5fdb2d\u2026",
+        "value": 0.026773380655313185
+      },
+      {
+        "pub_key": "0274ce2cee1266882c266940abd10d1a8c5285c68fd984e468e325884b9b5e526c",
+        "alias": "BitMEX",
+        "value": 0.02664440529804001
+      },
+      {
+        "pub_key": "036eb65676a65660e4c1ffd728d88b3d82d027d416fad59867471fe2123de0ab27",
+        "alias": "LSPS1-BOS get-inbound-channel",
+        "value": 0.026635348865906586
+      },
+      {
+        "pub_key": "0324ba2392e25bff76abd0b1f7e4b53b5f82aa53fddc3419b051b6c801db9e2247",
+        "alias": "kappa",
+        "value": 0.025330167982872843
+      },
+      {
+        "pub_key": "0290fb6ecd5865f7a973e1d48ffbc2612f80f6a2defbd6a188928bd0492bc2847e",
+        "alias": "\ud83e\udd52CTRLBREAK\ud83e\udd52",
+        "value": 0.022600018203533523
+      },
+      {
+        "pub_key": "03cde60a6323f7122d5178255766e38114b4722ede08f7c9e0c5df9b912cc201d6",
+        "alias": "bfx-lnd1",
+        "value": 0.0225319763374755
+      },
+      {
+        "pub_key": "033d8656219478701227199cbd6f670335c8d408a92ae88b962c49d4dc0e83e025",
+        "alias": "bfx-lnd0",
+        "value": 0.022222500929910034
+      }
+    ],
+    "eigenvector_top_nodes": [
+      {
+        "pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f",
+        "alias": "ACINQ",
+        "value": 0.2103607670630394
+      },
+      {
+        "pub_key": "03423790614f023e3c0cdaa654a3578e919947e4c3a14bf5044e7c787ebd11af1a",
+        "alias": "Sunny Sarah \u2600\ufe0f",
+        "value": 0.16493520274730913
+      },
+      {
+        "pub_key": "03d32e5618df518e911e2c0bf4686e9d236ae9ab0afd442f0a5de28b74d64338b3",
+        "alias": "\ud83c\udde8\ud83c\uddedVix18",
+        "value": 0.14734092234136645
+      },
+      {
+        "pub_key": "03a93b87bf9f052b8e862d51ebbac4ce5e97b5f4137563cd5128548d7f5978dda9",
+        "alias": "cyberdyne.sh",
+        "value": 0.1350391303469376
+      },
+      {
+        "pub_key": "03c8e5f583585cac1de2b7503a6ccd3c12ba477cfd139cd4905be504c2f48e86bd",
+        "alias": "Strike",
+        "value": 0.13253136638004806
+      },
+      {
+        "pub_key": "0298f6074a454a1f5345cb2a7c6f9fce206cd0bf675d177cdbf0ca7508dd28852f",
+        "alias": "BCash_Is_Trash",
+        "value": 0.1295869524612548
+      },
+      {
+        "pub_key": "0364913d18a19c671bb36dd04d6ad5be0fe8f2894314c36a9db3f03c2d414907e1",
+        "alias": "LQWD-Canada",
+        "value": 0.12637180935256778
+      },
+      {
+        "pub_key": "02cad4ec4c8b0dc2c7035a1898f979c8c7169bdff74e01ad6ca7aea59d85c59e8b",
+        "alias": "xmrk reloaded",
+        "value": 0.11776040924776138
+      },
+      {
+        "pub_key": "0324ba2392e25bff76abd0b1f7e4b53b5f82aa53fddc3419b051b6c801db9e2247",
+        "alias": "kappa",
+        "value": 0.11669326219467684
+      },
+      {
+        "pub_key": "033e9ce4e8f0e68f7db49ffb6b9eecc10605f3f3fcb3c630545887749ab515b9c7",
+        "alias": "LNBiG [Hub-2]",
+        "value": 0.11555741874712923
+      },
+      {
+        "pub_key": "0326e692c455dd554c709bbb470b0ca7e0bb04152f777d1445fd0bf3709a2833a3",
+        "alias": "allNice | torq.co | second.tech",
+        "value": 0.11427144058461525
+      },
+      {
+        "pub_key": "033d8656219478701227199cbd6f670335c8d408a92ae88b962c49d4dc0e83e025",
+        "alias": "bfx-lnd0",
+        "value": 0.10975118813762193
+      },
+      {
+        "pub_key": "03cde60a6323f7122d5178255766e38114b4722ede08f7c9e0c5df9b912cc201d6",
+        "alias": "bfx-lnd1",
+        "value": 0.1086471009908223
+      },
+      {
+        "pub_key": "027100442c3b79f606f80f322d98d499eefcb060599efc5d4ecb00209c2cb54190",
+        "alias": "block-iad-1",
+        "value": 0.10777352251843396
+      },
+      {
+        "pub_key": "033b63e4a9931dc151037acbce12f4f8968c86f5655cf102bbfa85a26bd4adc6d9",
+        "alias": "Garlic\ud83e\uddc4",
+        "value": 0.10697190886166452
+      },
+      {
+        "pub_key": "03b62dd177f6a8bd72b29a4d4d2b2eaa7fce14384c1d05e78a569a27452f20162b",
+        "alias": "Nova",
+        "value": 0.10472203695385011
+      },
+      {
+        "pub_key": "0340cfadaa3324e0dd176a9969be050114278f93260e1b6333bd2a2a2ea03c64a3",
+        "alias": "Babylon-4a",
+        "value": 0.10274204962294993
+      },
+      {
+        "pub_key": "037659a0ac8eb3b8d0a720114efc861d3a940382dcfa1403746b4f8f6b2e8810ba",
+        "alias": "nicehash-ln1",
+        "value": 0.10095944954659644
+      },
+      {
+        "pub_key": "0294ac3e099def03c12a37e30fe5364b1223fd60069869142ef96580c8439c2e0a",
+        "alias": "okx",
+        "value": 0.09786096735005093
+      },
+      {
+        "pub_key": "033acb18b31498eb6503e06172dfd281b5b64df17b8a7cb6b2bcecfd89f275b755",
+        "alias": "T\ud83c\udf2eCO",
+        "value": 0.0967582128679485
+      }
+    ],
+    "capacity_weighted_eigenvector_top_nodes": [
+      {
+        "pub_key": "03a1f3afd646d77bdaf545cceaf079bab6057eae52c6319b63b5803d0989d6a72f",
+        "alias": "Binance",
+        "value": 0.5649317828236563
+      },
+      {
+        "pub_key": "033d8656219478701227199cbd6f670335c8d408a92ae88b962c49d4dc0e83e025",
+        "alias": "bfx-lnd0",
+        "value": 0.5465861410689563
+      },
+      {
+        "pub_key": "03cde60a6323f7122d5178255766e38114b4722ede08f7c9e0c5df9b912cc201d6",
+        "alias": "bfx-lnd1",
+        "value": 0.31046093235355643
+      },
+      {
+        "pub_key": "034ea80f8b148c750463546bd999bf7321a0e6dfc60aaf84bd0400a2e8d376c0d5",
+        "alias": "LNBiG [Hub-1]",
+        "value": 0.27808733904900323
+      },
+      {
+        "pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f",
+        "alias": "ACINQ",
+        "value": 0.24984883517786435
+      },
+      {
+        "pub_key": "033e9ce4e8f0e68f7db49ffb6b9eecc10605f3f3fcb3c630545887749ab515b9c7",
+        "alias": "LNBiG [Hub-2]",
+        "value": 0.20993514903182242
+      },
+      {
+        "pub_key": "027100442c3b79f606f80f322d98d499eefcb060599efc5d4ecb00209c2cb54190",
+        "alias": "block-iad-1",
+        "value": 0.17646502586542456
+      },
+      {
+        "pub_key": "03a93b87bf9f052b8e862d51ebbac4ce5e97b5f4137563cd5128548d7f5978dda9",
+        "alias": "cyberdyne.sh",
+        "value": 0.135431941772854
+      },
+      {
+        "pub_key": "0294ac3e099def03c12a37e30fe5364b1223fd60069869142ef96580c8439c2e0a",
+        "alias": "okx",
+        "value": 0.08619077914824644
+      },
+      {
+        "pub_key": "02c91d6aa51aa940608b497b6beebcb1aec05be3c47704b682b3889424679ca490",
+        "alias": "LNBiG [Hub-3]",
+        "value": 0.07248447854790205
+      },
+      {
+        "pub_key": "0391904d140fdf88d19423513945a5fcc49c606521b65a85f6d6fe46ebdd1c7665",
+        "alias": "LifeIsGood",
+        "value": 0.07098851234598627
+      },
+      {
+        "pub_key": "037659a0ac8eb3b8d0a720114efc861d3a940382dcfa1403746b4f8f6b2e8810ba",
+        "alias": "nicehash-ln1",
+        "value": 0.05692262005415624
+      },
+      {
+        "pub_key": "03c8e5f583585cac1de2b7503a6ccd3c12ba477cfd139cd4905be504c2f48e86bd",
+        "alias": "Strike",
+        "value": 0.048343734814806055
+      },
+      {
+        "pub_key": "02a98e8c590a1b5602049d6b21d8f4c8861970aa310762f42eae1b2be88372e924",
+        "alias": "ed528ad49bedd1f7a638a",
+        "value": 0.04618281273662887
+      },
+      {
+        "pub_key": "0322d0e43b3d92d30ed187f4e101a9a9605c3ee5fc9721e6dac3ce3d7732fbb13e",
+        "alias": "Megalithic.me",
+        "value": 0.046118369385309235
+      },
+      {
+        "pub_key": "021c97a90a411ff2b10dc2a8e32de2f29d2fa49d41bfbb52bd416e460db0747d0d",
+        "alias": "LOOP",
+        "value": 0.04409021110339416
+      },
+      {
+        "pub_key": "037f990e61acee8a7697966afd29dd88f3b1f8a7b14d625c4f8742bd952003a590",
+        "alias": "fixedfloat.com",
+        "value": 0.04209186847459805
+      },
+      {
+        "pub_key": "039174f846626c6053ba80f5443d0db33da384f1dde135bf7080ba1eec465019c3",
+        "alias": "e960fd8385a1603003727",
+        "value": 0.04022960298694158
+      },
+      {
+        "pub_key": "0288be11d147e1525f7f234f304b094d6627d2c70f3313d7ba3696887b261c4447",
+        "alias": "yalls.org clearnet-yalls",
+        "value": 0.04006543430594017
+      },
+      {
+        "pub_key": "026f46207fd290a33cbd86e29b3ad0a47cdd44ab9aa5267cde66483e10aa9d3180",
+        "alias": "Authenticity",
+        "value": 0.03925665579581053
+      }
+    ]
+  },
+  "dominance": {
+    "top_nodes": [
+      {
+        "pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f",
+        "alias": "ACINQ",
+        "value": 0.9999466211166863
+      },
+      {
+        "pub_key": "03a93b87bf9f052b8e862d51ebbac4ce5e97b5f4137563cd5128548d7f5978dda9",
+        "alias": "cyberdyne.sh",
+        "value": 0.9990391801003523
+      },
+      {
+        "pub_key": "03c8e5f583585cac1de2b7503a6ccd3c12ba477cfd139cd4905be504c2f48e86bd",
+        "alias": "Strike",
+        "value": 0.9990124906586955
+      },
+      {
+        "pub_key": "033d8656219478701227199cbd6f670335c8d408a92ae88b962c49d4dc0e83e025",
+        "alias": "bfx-lnd0",
+        "value": 0.9989057328920679
+      },
+      {
+        "pub_key": "03cde60a6323f7122d5178255766e38114b4722ede08f7c9e0c5df9b912cc201d6",
+        "alias": "bfx-lnd1",
+        "value": 0.9989057328920679
+      },
+      {
+        "pub_key": "033e9ce4e8f0e68f7db49ffb6b9eecc10605f3f3fcb3c630545887749ab515b9c7",
+        "alias": "LNBiG [Hub-2]",
+        "value": 0.9987722856837835
+      },
+      {
+        "pub_key": "027100442c3b79f606f80f322d98d499eefcb060599efc5d4ecb00209c2cb54190",
+        "alias": "block-iad-1",
+        "value": 0.9983719440589303
+      },
+      {
+        "pub_key": "0324ba2392e25bff76abd0b1f7e4b53b5f82aa53fddc3419b051b6c801db9e2247",
+        "alias": "kappa",
+        "value": 0.9982918757339596
+      },
+      {
+        "pub_key": "03423790614f023e3c0cdaa654a3578e919947e4c3a14bf5044e7c787ebd11af1a",
+        "alias": "Sunny Sarah \u2600\ufe0f",
+        "value": 0.9982651862923028
+      },
+      {
+        "pub_key": "0364913d18a19c671bb36dd04d6ad5be0fe8f2894314c36a9db3f03c2d414907e1",
+        "alias": "LQWD-Canada",
+        "value": 0.9982384968506458
+      },
+      {
+        "pub_key": "037659a0ac8eb3b8d0a720114efc861d3a940382dcfa1403746b4f8f6b2e8810ba",
+        "alias": "nicehash-ln1",
+        "value": 0.9981050496423616
+      },
+      {
+        "pub_key": "0298f6074a454a1f5345cb2a7c6f9fce206cd0bf675d177cdbf0ca7508dd28852f",
+        "alias": "BCash_Is_Trash",
+        "value": 0.9980249813173909
+      },
+      {
+        "pub_key": "02c91d6aa51aa940608b497b6beebcb1aec05be3c47704b682b3889424679ca490",
+        "alias": "LNBiG [Hub-3]",
+        "value": 0.9979182235507633
+      },
+      {
+        "pub_key": "034ea80f8b148c750463546bd999bf7321a0e6dfc60aaf84bd0400a2e8d376c0d5",
+        "alias": "LNBiG [Hub-1]",
+        "value": 0.9978648446674496
+      },
+      {
+        "pub_key": "0294ac3e099def03c12a37e30fe5364b1223fd60069869142ef96580c8439c2e0a",
+        "alias": "okx",
+        "value": 0.9976513291341944
+      },
+      {
+        "pub_key": "0242a4ae0c5bef18048fbecf995094b74bfb0f7391418d71ed394784373f41e4f3",
+        "alias": "CoinGate",
+        "value": 0.9974911924842533
+      },
+      {
+        "pub_key": "03d32e5618df518e911e2c0bf4686e9d236ae9ab0afd442f0a5de28b74d64338b3",
+        "alias": "\ud83c\udde8\ud83c\uddedVix18",
+        "value": 0.9965837514679192
+      },
+      {
+        "pub_key": "0340cfadaa3324e0dd176a9969be050114278f93260e1b6333bd2a2a2ea03c64a3",
+        "alias": "Babylon-4a",
+        "value": 0.9963168570513504
+      },
+      {
+        "pub_key": "02437c00ef5de2686a6bd60f8acb5c83d17010916010a15f479d5ef84c04f04485",
+        "alias": "Kraken \ud83d\udc19\u26a1",
+        "value": 0.9961567204014092
+      },
+      {
+        "pub_key": "02cad4ec4c8b0dc2c7035a1898f979c8c7169bdff74e01ad6ca7aea59d85c59e8b",
+        "alias": "xmrk reloaded",
+        "value": 0.9958898259848404
+      }
+    ],
+    "method": "mean percentile rank of degree, capacity, betweenness, eigenvector centrality"
+  },
+  "resilience": {
+    "single_points_of_failure": {
+      "articulation_point_count": 844,
+      "articulation_points": [
+        {
+          "pub_key": "0217890e3aad8d35bc054f43acc00084b25229ecff0ab68debd82883ad65ee8266",
+          "alias": "1ML.com node ALPHA",
+          "nodes_stranded_if_removed": 841
+        },
+        {
+          "pub_key": "03ccc570ec6aaff08d5435b3413f4b4af8175728a1ed244e4710121c8f5af6ea07",
+          "alias": "LNT.Thailand",
+          "nodes_stranded_if_removed": 690
+        },
+        {
+          "pub_key": "0242a4ae0c5bef18048fbecf995094b74bfb0f7391418d71ed394784373f41e4f3",
+          "alias": "CoinGate",
+          "nodes_stranded_if_removed": 411
+        },
+        {
+          "pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f",
+          "alias": "ACINQ",
+          "nodes_stranded_if_removed": 397
+        },
+        {
+          "pub_key": "02c953421bc7f07be6052920e46843d11e6d3ffc9986177c91f140d76c6ed3a3d4",
+          "alias": "LNT.chengdu",
+          "nodes_stranded_if_removed": 305
+        },
+        {
+          "pub_key": "023d70f2f76d283c6c4e58109ee3a2816eb9d8feb40b23d62469060a2b2867b77f",
+          "alias": "gameb_1",
+          "nodes_stranded_if_removed": 219
+        },
+        {
+          "pub_key": "026165850492521f4ac8abd9bd8088123446d126f648ca35e60f88177dc149ceb2",
+          "alias": "Boltz",
+          "nodes_stranded_if_removed": 86
+        },
+        {
+          "pub_key": "02a04446caa81636d60d63b066f2814cbd3a6b5c258e3172cbdded7a16e2cfff4c",
+          "alias": "ln.bitstamp.net [Bitstamp]",
+          "nodes_stranded_if_removed": 77
+        },
+        {
+          "pub_key": "02529db69fd2ebd3126fb66fafa234fc3544477a23d509fe93ed229bb0e92e4fb8",
+          "alias": "\ud83d\ude80\ud83c\udf11 BOLTENING.club",
+          "nodes_stranded_if_removed": 71
+        },
+        {
+          "pub_key": "038a9e56512ec98da2b5789761f7af8f280baf98a09282360cd6ff1381b5e889bf",
+          "alias": "Megalith LSP",
+          "nodes_stranded_if_removed": 49
+        },
+        {
+          "pub_key": "033d8656219478701227199cbd6f670335c8d408a92ae88b962c49d4dc0e83e025",
+          "alias": "bfx-lnd0",
+          "nodes_stranded_if_removed": 38
+        },
+        {
+          "pub_key": "03cde60a6323f7122d5178255766e38114b4722ede08f7c9e0c5df9b912cc201d6",
+          "alias": "bfx-lnd1",
+          "nodes_stranded_if_removed": 38
+        },
+        {
+          "pub_key": "034ea80f8b148c750463546bd999bf7321a0e6dfc60aaf84bd0400a2e8d376c0d5",
+          "alias": "LNBiG [Hub-1]",
+          "nodes_stranded_if_removed": 35
+        },
+        {
+          "pub_key": "0324ba2392e25bff76abd0b1f7e4b53b5f82aa53fddc3419b051b6c801db9e2247",
+          "alias": "kappa",
+          "nodes_stranded_if_removed": 34
+        },
+        {
+          "pub_key": "020d3d5995a973c878e3f6e5f59da54078304c537f981d7dcef73367ecbea0e90e",
+          "alias": "020d3d5995\u2026",
+          "nodes_stranded_if_removed": 31
+        },
+        {
+          "pub_key": "037659a0ac8eb3b8d0a720114efc861d3a940382dcfa1403746b4f8f6b2e8810ba",
+          "alias": "nicehash-ln1",
+          "nodes_stranded_if_removed": 30
+        },
+        {
+          "pub_key": "03afa7a8196dbca763ee6f9a34b634a7adc03f154e5d6979fe654db5606b5fb2b1",
+          "alias": "CoinPayments",
+          "nodes_stranded_if_removed": 29
+        },
+        {
+          "pub_key": "03cbf298b068300be33f06c947b9d3f00a0f0e8089da3233f5db37e81d3a596fe1",
+          "alias": "03cbf298b0\u2026",
+          "nodes_stranded_if_removed": 28
+        },
+        {
+          "pub_key": "035e4ff418fc8b5554c5d9eea66396c227bd429a3251c8cbc711002ba215bfc226",
+          "alias": "WalletOfSatoshi.com",
+          "nodes_stranded_if_removed": 27
+        },
+        {
+          "pub_key": "022d73890548be3625f822f0294d1c30934c6063df8904bafc70224920e14f10e7",
+          "alias": "LightningPlatinum",
+          "nodes_stranded_if_removed": 26
+        }
+      ],
+      "bridge_count": 5107,
+      "bridge_fraction_of_channels": 0.1713240967493039
+    },
+    "attack_simulation": {
+      "base_population": 9088,
+      "curves": {
+        "random": [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            0.02,
+            0.9732614436619719
+          ],
+          [
+            0.04,
+            0.9435152582159624
+          ],
+          [
+            0.06,
+            0.9047095070422535
+          ],
+          [
+            0.08,
+            0.857137617370892
+          ],
+          [
+            0.1,
+            0.8322329812206574
+          ],
+          [
+            0.12,
+            0.808905516431925
+          ],
+          [
+            0.14,
+            0.7864583333333334
+          ],
+          [
+            0.16,
+            0.7588761737089201
+          ],
+          [
+            0.18,
+            0.735768779342723
+          ],
+          [
+            0.2,
+            0.7149354460093896
+          ],
+          [
+            0.22,
+            0.6872799295774649
+          ],
+          [
+            0.24,
+            0.6630721830985916
+          ],
+          [
+            0.26,
+            0.6411018192488261
+          ],
+          [
+            0.28,
+            0.6026628521126761
+          ],
+          [
+            0.3,
+            0.581756161971831
+          ],
+          [
+            0.32,
+            0.5615463615023474
+          ],
+          [
+            0.34,
+            0.5407130281690141
+          ],
+          [
+            0.36,
+            0.521200117370892
+          ],
+          [
+            0.38,
+            0.484668427230047
+          ],
+          [
+            0.4,
+            0.463174882629108
+          ],
+          [
+            0.42,
+            0.4438820422535212
+          ],
+          [
+            0.44,
+            0.4251760563380282
+          ],
+          [
+            0.46,
+            0.392568955399061
+          ],
+          [
+            0.48,
+            0.374449823943662
+          ],
+          [
+            0.5,
+            0.3585680751173708
+          ]
+        ],
+        "degree": [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            0.02,
+            0.4117517605633803
+          ],
+          [
+            0.04,
+            0.2944542253521127
+          ],
+          [
+            0.06,
+            0.2007042253521127
+          ],
+          [
+            0.08,
+            0.07174295774647887
+          ],
+          [
+            0.1,
+            0.009683098591549295
+          ],
+          [
+            0.12,
+            0.00429137323943662
+          ],
+          [
+            0.14,
+            0.0014304577464788733
+          ],
+          [
+            0.16,
+            0.0014304577464788733
+          ],
+          [
+            0.18,
+            0.0014304577464788733
+          ],
+          [
+            0.2,
+            0.0014304577464788733
+          ],
+          [
+            0.22,
+            0.0009903169014084507
+          ],
+          [
+            0.24,
+            0.0009903169014084507
+          ],
+          [
+            0.26,
+            0.0008802816901408451
+          ],
+          [
+            0.28,
+            0.00044014084507042255
+          ],
+          [
+            0.3,
+            0.00044014084507042255
+          ],
+          [
+            0.32,
+            0.0003301056338028169
+          ],
+          [
+            0.34,
+            0.0003301056338028169
+          ],
+          [
+            0.36,
+            0.0003301056338028169
+          ],
+          [
+            0.38,
+            0.0003301056338028169
+          ],
+          [
+            0.4,
+            0.0003301056338028169
+          ],
+          [
+            0.42,
+            0.00022007042253521127
+          ],
+          [
+            0.44,
+            0.00022007042253521127
+          ],
+          [
+            0.46,
+            0.00011003521126760564
+          ],
+          [
+            0.48,
+            0.00011003521126760564
+          ],
+          [
+            0.5,
+            0.00011003521126760564
+          ]
+        ],
+        "capacity": [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            0.02,
+            0.6461267605633803
+          ],
+          [
+            0.04,
+            0.5007702464788732
+          ],
+          [
+            0.06,
+            0.4420114436619718
+          ],
+          [
+            0.08,
+            0.351012323943662
+          ],
+          [
+            0.1,
+            0.24284771126760563
+          ],
+          [
+            0.12,
+            0.1565801056338028
+          ],
+          [
+            0.14,
+            0.15514964788732394
+          ],
+          [
+            0.16,
+            0.1485475352112676
+          ],
+          [
+            0.18,
+            0.14546654929577466
+          ],
+          [
+            0.2,
+            0.1427156690140845
+          ],
+          [
+            0.22,
+            0.13512323943661972
+          ],
+          [
+            0.24,
+            0.12830105633802816
+          ],
+          [
+            0.26,
+            0.12059859154929578
+          ],
+          [
+            0.28,
+            0.10684419014084508
+          ],
+          [
+            0.3,
+            0.10167253521126761
+          ],
+          [
+            0.32,
+            0.09936179577464789
+          ],
+          [
+            0.34,
+            0.09430017605633803
+          ],
+          [
+            0.36,
+            0.0799955985915493
+          ],
+          [
+            0.38,
+            0.0724031690140845
+          ],
+          [
+            0.4,
+            0.07075264084507042
+          ],
+          [
+            0.42,
+            0.07075264084507042
+          ],
+          [
+            0.44,
+            0.06338028169014084
+          ],
+          [
+            0.46,
+            0.05622799295774648
+          ],
+          [
+            0.48,
+            0.05292693661971831
+          ],
+          [
+            0.5,
+            0.05292693661971831
+          ]
+        ],
+        "betweenness": [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            0.02,
+            0.4004181338028169
+          ],
+          [
+            0.04,
+            0.23481514084507044
+          ],
+          [
+            0.06,
+            0.18595950704225353
+          ],
+          [
+            0.08,
+            0.15140845070422534
+          ],
+          [
+            0.1,
+            0.1171875
+          ],
+          [
+            0.12,
+            0.08439700704225352
+          ],
+          [
+            0.14,
+            0.06668133802816902
+          ],
+          [
+            0.16,
+            0.061399647887323945
+          ],
+          [
+            0.18,
+            0.04764524647887324
+          ],
+          [
+            0.2,
+            0.03047975352112676
+          ],
+          [
+            0.22,
+            0.0078125
+          ],
+          [
+            0.24,
+            0.0009903169014084507
+          ],
+          [
+            0.26,
+            0.0008802816901408451
+          ],
+          [
+            0.28,
+            0.0005501760563380282
+          ],
+          [
+            0.3,
+            0.00044014084507042255
+          ],
+          [
+            0.32,
+            0.00044014084507042255
+          ],
+          [
+            0.34,
+            0.00044014084507042255
+          ],
+          [
+            0.36,
+            0.00022007042253521127
+          ],
+          [
+            0.38,
+            0.00022007042253521127
+          ],
+          [
+            0.4,
+            0.00022007042253521127
+          ],
+          [
+            0.42,
+            0.00022007042253521127
+          ],
+          [
+            0.44,
+            0.00022007042253521127
+          ],
+          [
+            0.46,
+            0.00022007042253521127
+          ],
+          [
+            0.48,
+            0.00022007042253521127
+          ],
+          [
+            0.5,
+            0.00022007042253521127
+          ]
+        ]
+      },
+      "robustness_index": {
+        "random": 0.32756675469483576,
+        "degree": 0.03008912852112677,
+        "capacity": 0.09420664612676057,
+        "betweenness": 0.03787191901408451
+      }
+    },
+    "algebraic_connectivity_lcc": null
+  }
+}

@@ -1,0 +1,12 @@
+# lnviz runtime dependencies. Install into a Python 3.8+:
+#   pip install -r requirements.txt
+# Then either put that interpreter on PATH as `python3`, or:
+#   export LNVIZ_PYTHON=/path/to/that/python3
+networkx>=3.0
+matplotlib>=3.5
+# Pulled in transitively by matplotlib, but pinned explicitly since report.py
+# also imports it directly (histogram bin edges).
+numpy>=1.22
+# Only exercised by `--algebraic-connectivity` (networkx's Lanczos solver
+# needs it). Optional in principle, but small enough to just always install.
+scipy>=1.7
