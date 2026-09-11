@@ -1,0 +1,15 @@
+# Editor / OS cruft
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Local working files (raw describegraph dumps you pull in)
+/lightningGraph*.json
